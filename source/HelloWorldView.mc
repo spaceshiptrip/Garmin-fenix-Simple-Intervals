@@ -1,5 +1,8 @@
 import Toybox.WatchUi;
 import Toybox.Graphics;
+using Toybox.ActivityMonitor as Act;
+using Toybox.Activity as Acty;
+
 
 class HelloWorldView extends WatchUi.View {
 
@@ -35,6 +38,31 @@ class HelloWorldView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
+
+        var heartRate = -1;
+
+        if (Act has :getHeartRateHistory) {
+            heartRate = Activity.getActivityInfo().currentHeartRate;
+
+            if(heartRate==null) {
+                var HRH=Act.getHeartRateHistory(1, true);
+                var HRS=HRH.next();
+
+                if(HRS!=null && HRS.heartRate!= Act.INVALID_HR_SAMPLE){
+                    heartRate = HRS.heartRate;
+                }
+            }
+
+            if(heartRate!=null) {
+                heartRate = heartRate.toString();
+            }
+            else{
+                heartRate = "--";
+            }
+        }
+
+        System.print("HR: " + heartRate);
+
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
     }
