@@ -62,6 +62,17 @@ class HelloWorldView extends WatchUi.View {
         }
 
         System.print("HR: " + heartRate);
+        // View.findDrawableById("currHR").setText(heartRate);
+        // View.findDrawableById("currHR").setText(heartRate.toString());
+
+        // var clockTime = System.getClockTime();
+        // var timeString = Lang.format(
+        //     "$1$:$2$",
+        //     [clockTime.hour, clockTime.min.format("%02d")]
+        // );
+        // var view = findDrawableById("currHR");
+        // view.setText(timeString);
+
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

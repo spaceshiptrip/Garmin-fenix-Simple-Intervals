@@ -6,4 +6,5 @@
     <string id="menu_label_1">Item 1</string>
     <string id="menu_label_2">Item 2</string>
     <string id="hello_world">Hello World!</string>
+    <string id="currHR">00</string>
 </strings>

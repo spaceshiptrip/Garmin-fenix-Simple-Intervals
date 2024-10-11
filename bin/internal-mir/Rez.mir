@@ -33,7 +33,7 @@ module Rez {
 c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_start:
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 15 12 ]
             [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_stop" ]
-            %rez_cmp_local_text_6305899311.1 = local;
+            %rez_cmp_local_text_1020276226.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
@@ -70,7 +70,7 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
             %tmp.42 = dup %tmp.37;
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.1 = newc %tmp.4 (%tmp.43);
-            lputv %rez_cmp_local_text_6305899311.1 %tmp.1;
+            lputv %rez_cmp_local_text_1020276226.1 %tmp.1;
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 17 12 ]
             [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_stop" ]
             %rez_cmp_local_bitmap_id_monkey.2 = local;
@@ -113,7 +113,7 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
             invoke %tmp.73 %tmp.74(%tmp.80, %tmp.82);
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 20 12 ]
             %tmp.83 = newa 2 Array<WatchUi.Drawable>;
-            %tmp.85 = lgetv %rez_cmp_local_text_6305899311.1;
+            %tmp.85 = lgetv %rez_cmp_local_text_1020276226.1;
             %tmp.86 = dup %tmp.83;
             %tmp.87 = aputv %tmp.86 0 %tmp.85;
             %tmp.89 = lgetv %rez_cmp_local_bitmap_id_monkey.2;
@@ -124,10 +124,10 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
         }
         [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 23; ]
         function Item1Layout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_27_8_start:
+c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_start:
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 24 12 ]
-            [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_27_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_27_8_stop" ]
-            %rez_cmp_local_text_1758995308.1 = local;
+            [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_stop" ]
+            %rez_cmp_local_text_1926701268.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
@@ -164,38 +164,81 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
             %tmp.42 = dup %tmp.37;
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.1 = newc %tmp.4 (%tmp.43);
-            lputv %rez_cmp_local_text_1758995308.1 %tmp.1;
+            lputv %rez_cmp_local_text_1926701268.1 %tmp.1;
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 26 12 ]
-            %tmp.44 = newa 1 Array<WatchUi.Drawable>;
-            %tmp.46 = lgetv %rez_cmp_local_text_1758995308.1;
-            %tmp.47 = dup %tmp.44;
-            %tmp.48 = aputv %tmp.47 0 %tmp.46;
-            ret %tmp.48;
-c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_27_8_stop:
+            [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_stop" ]
+            %rez_cmp_local_text_4577730701.2 = local;
+            %tmp.46 = getm $.Toybox.WatchUi;
+            %tmp.47 = getv function ? %tmp.46 :Text;
+            %tmp.48 = newd 6;
+            %tmp.50 = const :color;
+            %tmp.51 = getm $.Toybox.Graphics;
+            %tmp.52 = getv %tmp.51 :COLOR_WHITE;
+            %tmp.53 = dup %tmp.48;
+            %tmp.54 = aputv %tmp.53 %tmp.50 %tmp.52;
+            %tmp.56 = const :locX;
+            %tmp.57 = 240;
+            %tmp.58 = 0.5;
+            %tmp.59 = mul %tmp.57 %tmp.58;
+            %tmp.60 = dup %tmp.54;
+            %tmp.61 = aputv %tmp.60 %tmp.56 %tmp.59;
+            %tmp.63 = const :locY;
+            %tmp.64 = 100;
+            %tmp.65 = dup %tmp.61;
+            %tmp.66 = aputv %tmp.65 %tmp.63 %tmp.64;
+            %tmp.68 = const :text;
+            %tmp.69 = getm $;
+            %tmp.70 = getv %tmp.69 :Rez;
+            %tmp.71 = getv %tmp.70 :Strings;
+            %tmp.72 = getv %tmp.71 :currHR;
+            %tmp.73 = dup %tmp.66;
+            %tmp.74 = aputv %tmp.73 %tmp.68 %tmp.72;
+            %tmp.76 = const :justification;
+            %tmp.77 = getm $.Toybox.Graphics;
+            %tmp.78 = getv %tmp.77 :TEXT_JUSTIFY_CENTER;
+            %tmp.79 = dup %tmp.74;
+            %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
+            %tmp.82 = const :font;
+            %tmp.83 = getm $.Toybox.Graphics;
+            %tmp.84 = getv %tmp.83 :FONT_LARGE;
+            %tmp.85 = dup %tmp.80;
+            %tmp.86 = aputv %tmp.85 %tmp.82 %tmp.84;
+            %tmp.44 = newc %tmp.47 (%tmp.86);
+            lputv %rez_cmp_local_text_4577730701.2 %tmp.44;
+[ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 28 12 ]
+            %tmp.87 = newa 2 Array<WatchUi.Drawable>;
+            %tmp.89 = lgetv %rez_cmp_local_text_1926701268.1;
+            %tmp.90 = dup %tmp.87;
+            %tmp.91 = aputv %tmp.90 0 %tmp.89;
+            %tmp.93 = lgetv %rez_cmp_local_text_4577730701.2;
+            %tmp.94 = dup %tmp.91;
+            %tmp.95 = aputv %tmp.94 1 %tmp.93;
+            ret %tmp.95;
+c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_stop:
         }
     }
-    [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 30; ]
+    [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 32; ]
     module Menus {
-        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 30; ]
+        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 32; ]
         <init> {
         }
-        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 31; ]
+        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 33; ]
         class MainMenu extends WatchUi.Menu{
-            [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 31; ]
+            [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 33; ]
             <init> {
             }
-            [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 31; ]
+            [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 33; ]
             static
             <init> {
             }
-            [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 32; ]
+            [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 34; ]
             function initialize() as Void {
-c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_32_34_36_12_start:
-[ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 33 16 ]
+c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_34_34_38_12_start:
+[ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 35 16 ]
                 %tmp.2 = getv ? :Menu;
                 %tmp.3 = getv function %tmp.2 :initialize;
                 invoke %tmp.2 %tmp.3();
-[ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 34 16 ]
+[ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 36 16 ]
                 %tmp.4 = self;
                 %tmp.5 = getv function %tmp.4 :addItem;
                 %tmp.6 = getm $.Toybox.WatchUi;
@@ -208,7 +251,7 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
                 %tmp.13 = as %tmp.12 String;
                 %tmp.15 = const :item_1;
                 invoke %tmp.4 %tmp.5(%tmp.13, %tmp.15);
-[ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 35 16 ]
+[ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 37 16 ]
                 %tmp.16 = self;
                 %tmp.17 = getv function %tmp.16 :addItem;
                 %tmp.18 = getm $.Toybox.WatchUi;
@@ -221,24 +264,26 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
                 %tmp.25 = as %tmp.24 String;
                 %tmp.27 = const :item_2;
                 invoke %tmp.16 %tmp.17(%tmp.25, %tmp.27);
-c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_32_34_36_12_stop:
+c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_34_34_38_12_stop:
             }
         }
     }
-    [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 40; ]
+    [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 42; ]
     module Strings {
-        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 40; ]
+        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 42; ]
         <init> {
         }
-        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
-        var hello_world as ResourceId;
-        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
-        var menu_label_1 as ResourceId;
         [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
-        var menu_label_2 as ResourceId;
+        var hello_world as ResourceId;
         [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
-        var prompt as ResourceId;
+        var menu_label_1 as ResourceId;
         [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        var menu_label_2 as ResourceId;
+        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
+        var currHR as ResourceId;
+        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
+        var prompt as ResourceId;
+        [ @file = "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
         var AppName as ResourceId;
     }
 }

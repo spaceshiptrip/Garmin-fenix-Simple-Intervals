@@ -61,21 +61,23 @@
         <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="23" parent="globals/Rez/Layouts" pc="268436426" symbol="Item1Layout"/>
         <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="24" parent="globals/Rez/Layouts" pc="268436438" symbol="Item1Layout"/>
         <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="26" parent="globals/Rez/Layouts" pc="268436569" symbol="Item1Layout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="14" parent="globals/Rez/Layouts" pc="268436586" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="15" parent="globals/Rez/Layouts" pc="268436598" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="17" parent="globals/Rez/Layouts" pc="268436729" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="18" parent="globals/Rez/Layouts" pc="268436834" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="20" parent="globals/Rez/Layouts" pc="268436874" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="32" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268436901" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268436920" symbol="initialize"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268436922" symbol="initialize"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268436940" symbol="initialize"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268436996" symbol="initialize"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="28" parent="globals/Rez/Layouts" pc="268436700" symbol="Item1Layout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="14" parent="globals/Rez/Layouts" pc="268436727" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="15" parent="globals/Rez/Layouts" pc="268436739" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="17" parent="globals/Rez/Layouts" pc="268436870" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="18" parent="globals/Rez/Layouts" pc="268436975" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="20" parent="globals/Rez/Layouts" pc="268437015" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="32" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268437042" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268437061" symbol="initialize"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437063" symbol="initialize"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268437081" symbol="initialize"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268437137" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="22" symbol="currHR"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
         <entry id="19" method="true" symbol="MainLayout"/>
         <entry id="7" object="true" symbol="HelloWorldDelegate"/>
@@ -90,15 +92,15 @@
         <entry id="8389345" symbol="rezId"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="25" symbol="prompt"/>
+        <entry field="true" id="26" symbol="prompt"/>
         <entry field="true" id="17" symbol="id_monkey"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="27" symbol="item_2"/>
-        <entry id="26" symbol="item_1"/>
+        <entry id="28" symbol="item_2"/>
+        <entry id="27" symbol="item_1"/>
         <entry id="15" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
@@ -120,7 +122,7 @@
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="22" symbol="hello_world"/>
+        <entry field="true" id="23" symbol="hello_world"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
@@ -130,8 +132,8 @@
         <entry id="14" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="24" symbol="menu_label_2"/>
-        <entry field="true" id="23" symbol="menu_label_1"/>
+        <entry field="true" id="25" symbol="menu_label_2"/>
+        <entry field="true" id="24" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435667" name="dc" stackId="1" startPc="268435624"/>
@@ -142,11 +144,12 @@
         <entry endPc="268435907" name="HRH" stackId="3" startPc="268435834"/>
         <entry endPc="268435907" name="HRS" stackId="4" startPc="268435834"/>
         <entry arg="true" endPc="268436115" name="item" stackId="1" startPc="268435991"/>
-        <entry arg="true" endPc="268436585" name="dc" stackId="1" startPc="268436426"/>
-        <entry endPc="268436585" name="rez_cmp_local_text_1758995308" stackId="2" startPc="268436438"/>
-        <entry arg="true" endPc="268436900" name="dc" stackId="1" startPc="268436586"/>
-        <entry endPc="268436900" name="rez_cmp_local_text_6305899311" stackId="2" startPc="268436598"/>
-        <entry endPc="268436900" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436598"/>
+        <entry arg="true" endPc="268436726" name="dc" stackId="1" startPc="268436426"/>
+        <entry endPc="268436726" name="rez_cmp_local_text_2061782491" stackId="2" startPc="268436438"/>
+        <entry endPc="268436726" name="rez_cmp_local_text_4182466701" stackId="3" startPc="268436438"/>
+        <entry arg="true" endPc="268437041" name="dc" stackId="1" startPc="268436727"/>
+        <entry endPc="268437041" name="rez_cmp_local_text_1066909851" stackId="2" startPc="268436739"/>
+        <entry endPc="268437041" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436739"/>
     </localVars>
     <deviceInfo partNumber="006-B3111-00"/>
     <annotations>
@@ -155,6 +158,7 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="hello_world"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="currHR"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
     </annotations>
@@ -172,7 +176,7 @@
         <dataEntry label="globals/Rez/Layouts" offset="733" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/Menus" offset="780" parentId="Rez" symbolId="Menus" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="819" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="890" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="898" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="garmin_fenix_simple_intervalsView" startPc="268435460">
@@ -284,18 +288,18 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436585" name="Item1Layout" parent="Layouts" startPc="268436426">
+        <functionEntry accessMode="public" endPc="268436726" name="Item1Layout" parent="Layouts" startPc="268436426">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436900" name="MainLayout" parent="Layouts" startPc="268436586">
+        <functionEntry accessMode="public" endPc="268437041" name="MainLayout" parent="Layouts" startPc="268436727">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436919" name="&lt;init&gt;" parent="MainMenu" startPc="268436901">
+        <functionEntry accessMode="public" endPc="268437060" name="&lt;init&gt;" parent="MainMenu" startPc="268437042">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437052" name="initialize" parent="MainMenu" startPc="268436920">
+        <functionEntry accessMode="public" endPc="268437193" name="initialize" parent="MainMenu" startPc="268437061">
             <documentation/>
         </functionEntry>
     </functions>
