@@ -1,0 +1,15 @@
+[ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-heartRate.mc"; @line = 1; ]
+using Toybox.Sensor;
+[ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-heartRate.mc"; @line = 4; ]
+class garmin_fenix_simple_heartRate{
+    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-heartRate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-heartRate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+}
+[ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-heartRate.mc"; @line = 1; ]
+<init> {
+}

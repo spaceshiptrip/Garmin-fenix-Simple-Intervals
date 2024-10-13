@@ -25,13 +25,13 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
     [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 12; ]
     function onStart(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 18; ]
+    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 16; ]
     function onStop(state as Dictionary or Null) as Void {
     }
-    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 22; ]
+    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 20; ]
     function getInitialView() as [Views] or [Views, InputDelegates] {
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_22_68_24_4_start:
-[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc" 23 8 ]
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_20_68_22_4_start:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc" 21 8 ]
         %tmp.1 = newa 2;
         %tmp.5 = getv ? :garmin_fenix_simple_intervalsView;
         %tmp.2 = newc %tmp.5 ();
@@ -42,19 +42,19 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_22_68_24_4_stop:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_20_68_22_4_stop:
     }
 }
-[ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 28; ]
+[ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 26; ]
 function getApp() as garmin_fenix_simple_intervalsApp {
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_28_54_30_0_start:
-[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc" 29 4 ]
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_26_54_28_0_start:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc" 27 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 garmin_fenix_simple_intervalsApp;
     ret %tmp.4;
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_28_54_30_0_stop:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_garmin_fenix_simple_intervalsApp_mc_26_54_28_0_stop:
 }
 [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\garmin-fenix-simple-intervalsApp.mc"; @line = 1; ]
 <init> {

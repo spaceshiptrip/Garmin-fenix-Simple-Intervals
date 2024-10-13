@@ -39,6 +39,9 @@ class HelloWorldView extends WatchUi.View {
     // Update the view
     function onUpdate(dc as Dc) as Void {
 
+
+        View.onUpdate(dc);
+
         var heartRate = -1;
 
         if (Act has :getHeartRateHistory) {
@@ -65,17 +68,49 @@ class HelloWorldView extends WatchUi.View {
         // View.findDrawableById("currHR").setText(heartRate);
         // View.findDrawableById("currHR").setText(heartRate.toString());
 
-        // var clockTime = System.getClockTime();
-        // var timeString = Lang.format(
-        //     "$1$:$2$",
-        //     [clockTime.hour, clockTime.min.format("%02d")]
-        // );
+        var clockTime = System.getClockTime();
+        var timeString = Lang.format(
+            "$1$:$2$",
+            [clockTime.hour, clockTime.min.format("%02d")]
+        );
         // var view = findDrawableById("currHR");
         // view.setText(timeString);
 
+        // Get the screen width and height
+        // var screenWidth = dc.getWidth();
+        // var screenHeight = dc.getHeight();
+        // Prepare the text to display
+        var text = timeString;
+
+        // // Calculate the position to center the text
+        // var textWidth = dc.getTextWidth(text, Graphics.FONT_LARGE);
+        // var textHeight = dc.getTextHeight(Graphics.FONT_LARGE);
+
+        // var x = (screenWidth - textWidth) / 2;
+        // var y = (screenHeight - textHeight) / 2;
+
+        var x = 30;
+        var y = 100;
+
+        System.print(text);
+
+        // Draw the text in the center
+        dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
+
+        var myTime = System.getClockTime();
+        // var currHRLabel = View.findDrawableById("currHR"");
+        // if (currHRLabel == null) {
+        //     System.print("currHRLabel is NULL");
+        // } else {
+        //     System.print("NULL NULL NULL");
+        // }
+
+
+
+
 
         // Call the parent onUpdate function to redraw the layout
-        View.onUpdate(dc);
+         
     }
 
     function onLayout(dc as Dc) as Void {
