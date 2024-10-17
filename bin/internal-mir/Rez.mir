@@ -33,7 +33,7 @@ module Rez {
 c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_start:
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 15 12 ]
             [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_stop" ]
-            %rez_cmp_local_text_2249932632.1 = local;
+            %rez_cmp_local_text_1751913682.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
@@ -70,7 +70,7 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
             %tmp.42 = dup %tmp.37;
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.1 = newc %tmp.4 (%tmp.43);
-            lputv %rez_cmp_local_text_2249932632.1 %tmp.1;
+            lputv %rez_cmp_local_text_1751913682.1 %tmp.1;
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 17 12 ]
             [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_14_74_21_8_stop" ]
             %rez_cmp_local_bitmap_id_monkey.2 = local;
@@ -113,7 +113,7 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
             invoke %tmp.73 %tmp.74(%tmp.80, %tmp.82);
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 20 12 ]
             %tmp.83 = newa 2 Array<WatchUi.Drawable>;
-            %tmp.85 = lgetv %rez_cmp_local_text_2249932632.1;
+            %tmp.85 = lgetv %rez_cmp_local_text_1751913682.1;
             %tmp.86 = dup %tmp.83;
             %tmp.87 = aputv %tmp.86 0 %tmp.85;
             %tmp.89 = lgetv %rez_cmp_local_bitmap_id_monkey.2;
@@ -127,7 +127,7 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
 c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_start:
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 24 12 ]
             [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_stop" ]
-            %rez_cmp_local_text_1404966636.1 = local;
+            %rez_cmp_local_text_2134668661.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
@@ -164,56 +164,60 @@ c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
             %tmp.42 = dup %tmp.37;
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.1 = newc %tmp.4 (%tmp.43);
-            lputv %rez_cmp_local_text_1404966636.1 %tmp.1;
+            lputv %rez_cmp_local_text_2134668661.1 %tmp.1;
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 26 12 ]
             [ "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_start" "c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_stop" ]
-            %rez_cmp_local_text_1873851864.2 = local;
+            %rez_cmp_local_text_HRLabel.2 = local;
             %tmp.46 = getm $.Toybox.WatchUi;
             %tmp.47 = getv function ? %tmp.46 :Text;
-            %tmp.48 = newd 6;
-            %tmp.50 = const :color;
-            %tmp.51 = getm $.Toybox.Graphics;
-            %tmp.52 = getv %tmp.51 :COLOR_WHITE;
-            %tmp.53 = dup %tmp.48;
-            %tmp.54 = aputv %tmp.53 %tmp.50 %tmp.52;
-            %tmp.56 = const :locX;
-            %tmp.57 = 240;
-            %tmp.58 = 0.5;
-            %tmp.59 = mul %tmp.57 %tmp.58;
-            %tmp.60 = dup %tmp.54;
-            %tmp.61 = aputv %tmp.60 %tmp.56 %tmp.59;
-            %tmp.63 = const :locY;
-            %tmp.64 = 100;
-            %tmp.65 = dup %tmp.61;
-            %tmp.66 = aputv %tmp.65 %tmp.63 %tmp.64;
-            %tmp.68 = const :text;
-            %tmp.69 = getm $;
-            %tmp.70 = getv %tmp.69 :Rez;
-            %tmp.71 = getv %tmp.70 :Strings;
-            %tmp.72 = getv %tmp.71 :currHR;
-            %tmp.73 = dup %tmp.66;
-            %tmp.74 = aputv %tmp.73 %tmp.68 %tmp.72;
-            %tmp.76 = const :justification;
-            %tmp.77 = getm $.Toybox.Graphics;
-            %tmp.78 = getv %tmp.77 :TEXT_JUSTIFY_CENTER;
-            %tmp.79 = dup %tmp.74;
-            %tmp.80 = aputv %tmp.79 %tmp.76 %tmp.78;
-            %tmp.82 = const :font;
-            %tmp.83 = getm $.Toybox.Graphics;
-            %tmp.84 = getv %tmp.83 :FONT_LARGE;
-            %tmp.85 = dup %tmp.80;
-            %tmp.86 = aputv %tmp.85 %tmp.82 %tmp.84;
-            %tmp.44 = newc %tmp.47 (%tmp.86);
-            lputv %rez_cmp_local_text_1873851864.2 %tmp.44;
+            %tmp.48 = newd 7;
+            %tmp.50 = const :identifier;
+            %tmp.51 = "HRLabel";
+            %tmp.52 = dup %tmp.48;
+            %tmp.53 = aputv %tmp.52 %tmp.50 %tmp.51;
+            %tmp.55 = const :color;
+            %tmp.56 = getm $.Toybox.Graphics;
+            %tmp.57 = getv %tmp.56 :COLOR_WHITE;
+            %tmp.58 = dup %tmp.53;
+            %tmp.59 = aputv %tmp.58 %tmp.55 %tmp.57;
+            %tmp.61 = const :locX;
+            %tmp.62 = 240;
+            %tmp.63 = 0.5;
+            %tmp.64 = mul %tmp.62 %tmp.63;
+            %tmp.65 = dup %tmp.59;
+            %tmp.66 = aputv %tmp.65 %tmp.61 %tmp.64;
+            %tmp.68 = const :locY;
+            %tmp.69 = 100;
+            %tmp.70 = dup %tmp.66;
+            %tmp.71 = aputv %tmp.70 %tmp.68 %tmp.69;
+            %tmp.73 = const :text;
+            %tmp.74 = getm $;
+            %tmp.75 = getv %tmp.74 :Rez;
+            %tmp.76 = getv %tmp.75 :Strings;
+            %tmp.77 = getv %tmp.76 :currHR;
+            %tmp.78 = dup %tmp.71;
+            %tmp.79 = aputv %tmp.78 %tmp.73 %tmp.77;
+            %tmp.81 = const :justification;
+            %tmp.82 = getm $.Toybox.Graphics;
+            %tmp.83 = getv %tmp.82 :TEXT_JUSTIFY_CENTER;
+            %tmp.84 = dup %tmp.79;
+            %tmp.85 = aputv %tmp.84 %tmp.81 %tmp.83;
+            %tmp.87 = const :font;
+            %tmp.88 = getm $.Toybox.Graphics;
+            %tmp.89 = getv %tmp.88 :FONT_LARGE;
+            %tmp.90 = dup %tmp.85;
+            %tmp.91 = aputv %tmp.90 %tmp.87 %tmp.89;
+            %tmp.44 = newc %tmp.47 (%tmp.91);
+            lputv %rez_cmp_local_text_HRLabel.2 %tmp.44;
 [ "c:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\bin\gen\006-B3111-00\source\Rez.mcgen" 28 12 ]
-            %tmp.87 = newa 2 Array<WatchUi.Drawable>;
-            %tmp.89 = lgetv %rez_cmp_local_text_1404966636.1;
-            %tmp.90 = dup %tmp.87;
-            %tmp.91 = aputv %tmp.90 0 %tmp.89;
-            %tmp.93 = lgetv %rez_cmp_local_text_1873851864.2;
-            %tmp.94 = dup %tmp.91;
-            %tmp.95 = aputv %tmp.94 1 %tmp.93;
-            ret %tmp.95;
+            %tmp.92 = newa 2 Array<WatchUi.Drawable>;
+            %tmp.94 = lgetv %rez_cmp_local_text_2134668661.1;
+            %tmp.95 = dup %tmp.92;
+            %tmp.96 = aputv %tmp.95 0 %tmp.94;
+            %tmp.98 = lgetv %rez_cmp_local_text_HRLabel.2;
+            %tmp.99 = dup %tmp.96;
+            %tmp.100 = aputv %tmp.99 1 %tmp.98;
+            ret %tmp.100;
 c_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_bin_gen_006_B3111_00_source_Rez_mcgen_23_75_29_8_stop:
         }
     }

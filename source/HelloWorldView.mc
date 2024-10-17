@@ -67,6 +67,13 @@ class HelloWorldView extends WatchUi.View {
         System.print("HR: " + heartRate);
         // View.findDrawableById("currHR").setText(heartRate);
         // View.findDrawableById("currHR").setText(heartRate.toString());
+        // var identifier = "HRLabel";
+        // var hrView = View.findDrawableById(identifier);
+        // hrView.setText(heartRate);
+
+
+        // WatchUi.View.find(identifier).setText(heartRate);
+
 
         var clockTime = System.getClockTime();
         var timeString = Lang.format(
@@ -108,6 +115,14 @@ class HelloWorldView extends WatchUi.View {
 
 
 
+        var view = View.findDrawableById("HRLabel");
+        if (view == null) {
+            System.print("HRLabel is null");
+        } else {
+            // view.setText(timeString);
+            view.draw(dc);
+        }
+        
 
         // Call the parent onUpdate function to redraw the layout
          
