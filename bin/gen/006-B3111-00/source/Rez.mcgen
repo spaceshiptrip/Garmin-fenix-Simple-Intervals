@@ -12,20 +12,20 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_1751913682 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>50, :text=>$.Rez.Strings.prompt, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_1464104839 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>50, :text=>$.Rez.Strings.prompt, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
             var rez_cmp_local_bitmap_id_monkey = new WatchUi.Bitmap({:identifier=>"id_monkey", :rezId=>$.Rez.Drawables.id_monkey, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>100});
             rez_cmp_local_bitmap_id_monkey.setLocation(((240 - rez_cmp_local_bitmap_id_monkey.width) * 0.5), rez_cmp_local_bitmap_id_monkey.locY);
 
-            return [rez_cmp_local_text_1751913682, rez_cmp_local_bitmap_id_monkey] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_1464104839, rez_cmp_local_bitmap_id_monkey] as Array<WatchUi.Drawable>;
         }
 
         function Item1Layout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_2134668661 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>50, :text=>$.Rez.Strings.hello_world, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_8106467331 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>50, :text=>$.Rez.Strings.hello_world, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
             var rez_cmp_local_text_HRLabel = new WatchUi.Text({:identifier=>"HRLabel", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>100, :text=>$.Rez.Strings.currHR, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_text_2134668661, rez_cmp_local_text_HRLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_8106467331, rez_cmp_local_text_HRLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

@@ -102,9 +102,9 @@ class HelloWorldView extends WatchUi.View {
         System.print(text);
 
         // Draw the text in the center
-        dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
+        // dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
 
-        var myTime = System.getClockTime();
+        // var myTime = System.getClockTime();
         // var currHRLabel = View.findDrawableById("currHR"");
         // if (currHRLabel == null) {
         //     System.print("currHRLabel is NULL");
@@ -120,12 +120,15 @@ class HelloWorldView extends WatchUi.View {
             System.print("HRLabel is null");
         } else {
             // view.setText(timeString);
+            System.print("drawing dc");
+            // dc.setText(text);
             view.draw(dc);
         }
         
 
         // Call the parent onUpdate function to redraw the layout
-         
+        // View.onUpdate(dc);
+
     }
 
     function onLayout(dc as Dc) as Void {
