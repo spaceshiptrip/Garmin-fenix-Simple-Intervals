@@ -115,16 +115,16 @@ class HelloWorldView extends WatchUi.View {
 
 
 
-        var view = View.findDrawableById("HRLabel");
+        var view = View.findDrawableById("HRLabel") as Text;
         // view.setVisible(false);
         if (view == null) {
             System.println("HRLabel is null");
         } else {
             // view.setText(timeString);
             System.println("drawing dc");
-            dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
-            // view.setText(text);
-            view.draw(dc);
+            // dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
+            view.setText(text);
+            // view.draw(dc);
             // view.setVisible(true);
             // View.onUpdate(dc);
 
