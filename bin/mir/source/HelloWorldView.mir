@@ -32,14 +32,14 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
     }
     [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc"; @line = 40; ]
     function onUpdate(dc as Dc) as Void {
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start:
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 43 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 45 8 ]
-        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop" ]
+        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop" ]
         %heartRate.1 = local;
         %tmp.6 = -1;
         lputv %heartRate.1 %tmp.6;
@@ -146,14 +146,14 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
         %tmp.58 = add %tmp.55 %tmp.57;
         invoke %tmp.53 %tmp.54(%tmp.58);
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 78 8 ]
-        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop" ]
+        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop" ]
         %clockTime.4 = local;
         %tmp.60 = getv ? :System;
         %tmp.61 = getv function %tmp.60 :getClockTime;
         %tmp.62 = invoke %tmp.60 %tmp.61();
         lputv %clockTime.4 %tmp.62;
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 79 8 ]
-        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop" ]
+        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop" ]
         %timeString.5 = local;
         %tmp.64 = getv ? :Lang;
         %tmp.65 = getv function %tmp.64 :format;
@@ -173,74 +173,80 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
         %tmp.79 = invoke %tmp.64 %tmp.65(%tmp.66, %tmp.78);
         lputv %timeString.5 %tmp.79;
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 90 8 ]
-        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop" ]
+        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop" ]
         %text.6 = local;
         %tmp.81 = lgetv %timeString.5;
         lputv %text.6 %tmp.81;
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 99 8 ]
-        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop" ]
+        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop" ]
         %x.7 = local;
         %tmp.82 = 30;
         lputv %x.7 %tmp.82;
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 100 8 ]
-        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop" ]
+        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop" ]
         %y.8 = local;
         %tmp.83 = 100;
         lputv %y.8 %tmp.83;
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 102 8 ]
         %tmp.85 = getv ? :System;
-        %tmp.86 = getv function %tmp.85 :print;
+        %tmp.86 = getv function %tmp.85 :println;
         %tmp.88 = lgetv %text.6;
         invoke %tmp.85 %tmp.86(%tmp.88);
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 118 8 ]
-        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop" ]
+        [ "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_start" "C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop" ]
         %view.9 = local;
         %tmp.90 = getv ? :View;
         %tmp.91 = getv function %tmp.90 :findDrawableById;
         %tmp.92 = "HRLabel";
         %tmp.93 = invoke %tmp.90 %tmp.91(%tmp.92);
         lputv %view.9 %tmp.93;
-[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 119 8 ]
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_8_126_8_if_stmt:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 120 8 ]
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_8_131_8_if_stmt:
         %tmp.95 = lgetv %view.9;
         %tmp.96 = null;
         %tmp.97 = eq %tmp.95 %tmp.96;
-        bf %tmp.97 @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_8_126_8_if_false;
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_8_126_8_if_true:
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_26_121_8_start:
-[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 120 12 ]
+        bf %tmp.97 @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_8_131_8_if_false;
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_8_131_8_if_true:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_26_122_8_start:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 121 12 ]
         %tmp.99 = getv ? :System;
-        %tmp.100 = getv function %tmp.99 :print;
+        %tmp.100 = getv function %tmp.99 :println;
         %tmp.101 = "HRLabel is null";
         invoke %tmp.99 %tmp.100(%tmp.101);
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_26_121_8_stop:
-        goto @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_8_126_8_if_end;
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_8_126_8_if_false:
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_121_15_126_8_start:
-[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 123 12 ]
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_26_122_8_stop:
+        goto @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_8_131_8_if_end;
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_8_131_8_if_false:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_122_15_131_8_start:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 124 12 ]
         %tmp.103 = getv ? :System;
-        %tmp.104 = getv function %tmp.103 :print;
+        %tmp.104 = getv function %tmp.103 :println;
         %tmp.105 = "drawing dc";
         invoke %tmp.103 %tmp.104(%tmp.105);
-[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 124 12 ]
-        %tmp.106 = lgetv %dc;
-        %tmp.107 = getv function %tmp.106 :setText;
-        %tmp.109 = lgetv %text.6;
-        invoke %tmp.106 %tmp.107(%tmp.109);
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 125 12 ]
-        %tmp.110 = lgetv %view.9;
-        %tmp.111 = as %tmp.110 { (!Null) };
-        %tmp.112 = getv function %tmp.111 :draw;
-        %tmp.114 = lgetv %dc;
-        invoke %tmp.111 %tmp.112(%tmp.114);
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_121_15_126_8_stop:
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_119_8_126_8_if_end:
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_132_4_stop:
+        %tmp.106 = lgetv %dc;
+        %tmp.107 = getv function %tmp.106 :drawText;
+        %tmp.108 = 0;
+        %tmp.109 = 0;
+        %tmp.110 = getm $.Toybox.Graphics;
+        %tmp.111 = getv %tmp.110 :FONT_LARGE;
+        %tmp.113 = lgetv %text.6;
+        %tmp.114 = getm $.Toybox.Graphics;
+        %tmp.115 = getv %tmp.114 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.106 %tmp.107(%tmp.108, %tmp.109, %tmp.111, %tmp.113, %tmp.115);
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 127 12 ]
+        %tmp.116 = lgetv %view.9;
+        %tmp.117 = as %tmp.116 { (!Null) };
+        %tmp.118 = getv function %tmp.117 :draw;
+        %tmp.120 = lgetv %dc;
+        invoke %tmp.117 %tmp.118(%tmp.120);
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_122_15_131_8_stop:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_8_131_8_if_end:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_40_40_137_4_stop:
     }
-    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc"; @line = 134; ]
+    [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc"; @line = 139; ]
     function onLayout(dc as Dc) as Void {
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_134_40_136_4_start:
-[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 135 8 ]
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_139_40_141_4_start:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 140 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -249,7 +255,7 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_134_40_136_4_stop:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_139_40_141_4_stop:
     }
 }
 [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc"; @line = 1; ]
