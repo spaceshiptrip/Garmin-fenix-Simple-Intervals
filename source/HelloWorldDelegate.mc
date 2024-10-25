@@ -15,7 +15,7 @@ class HelloWorldDelegate extends WatchUi.BehaviorDelegate {
 
         //     WatchUi.requestUpdate();
         // }
-        // return true;
+        return true;
     }
 
 }

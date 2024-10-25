@@ -2,14 +2,22 @@ import Toybox.WatchUi;
 import Toybox.Graphics;
 using Toybox.ActivityMonitor as Act;
 using Toybox.Activity as Acty;
+import Toybox.Timer;
 
 
 class HelloWorldView extends WatchUi.View {
 
     function initialize() {
         View.initialize();
+
+        var timer = new Timer.Timer();
+        timer.start(method(:timerCallBack),500,true);
+
     }
 
+    function timerCallBack() as Void{
+        requestUpdate();
+    }
 
     function onShow() {
         // Called when the view is shown
