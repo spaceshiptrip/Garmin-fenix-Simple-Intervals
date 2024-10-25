@@ -9,12 +9,6 @@ class HelloWorldDelegate extends WatchUi.BehaviorDelegate {
 
     function onMenu() as Boolean {
         WatchUi.pushView(new HelloWorldView(), null, WatchUi.SLIDE_UP);
-        // while (true) {
-        //     System.print("requestUpdate");
-                    
-
-        //     WatchUi.requestUpdate();
-        // }
         return true;
     }
 

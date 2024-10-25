@@ -15,7 +15,7 @@ class HelloWorldView extends WatchUi.View {
 
     }
 
-    function timerCallBack() as Void{
+    function timerCallBack() as Void {
         requestUpdate();
     }
 
@@ -27,61 +27,15 @@ class HelloWorldView extends WatchUi.View {
         // Called when the view is hidden
     }
 
-    // function onUpdate(dc as Graphics.DrawContext) {
-    //     // // Get the screen width and height
-    //     // var screenWidth = dc.getWidth();
-    //     // var screenHeight = dc.getHeight();
-
-    //     // // Calculate the position to center the text
-    //     // var text = "Hello World";
-    //     // var textWidth = dc.getTextWidth(text);
-    //     // var textHeight = dc.getTextHeight();
-
-    //     // var x = (screenWidth - textWidth) / 2;
-    //     // var y = (screenHeight - textHeight) / 2;
-
-    //     // // Draw the text in the center
-    //     // dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
-    // }
-
     // Update the view
     function onUpdate(dc as Dc) as Void {
 
-
         View.onUpdate(dc);
 
-        var heartRate = -1;
-
-        if (Act has :getHeartRateHistory) {
-            heartRate = Activity.getActivityInfo().currentHeartRate;
-
-            if(heartRate==null) {
-                var HRH=Act.getHeartRateHistory(1, true);
-                var HRS=HRH.next();
-
-                if(HRS!=null && HRS.heartRate!= Act.INVALID_HR_SAMPLE){
-                    heartRate = HRS.heartRate;
-                }
-            }
-
-            if(heartRate!=null) {
-                heartRate = heartRate.toString();
-            }
-            else{
-                heartRate = "--";
-            }
-        }
-
+        var heartRate = getLatestHeartRate();
+ 
         System.println("HR: " + heartRate);
-        // View.findDrawableById("currHR").setText(heartRate);
-        // View.findDrawableById("currHR").setText(heartRate.toString());
-        // var identifier = "HRLabel";
-        // var hrView = View.findDrawableById(identifier);
-        // hrView.setText(heartRate);
-
-
-        // WatchUi.View.find(identifier).setText(heartRate);
-
+   
 
         var clockTime = System.getClockTime();
         var timeString = Lang.format(
@@ -124,30 +78,49 @@ class HelloWorldView extends WatchUi.View {
 
 
         var view = View.findDrawableById("HRLabel") as Text;
-        // view.setVisible(false);
+
         if (view == null) {
             System.println("HRLabel is null");
         } else {
-            // view.setText(timeString);
+
             System.println("drawing dc");
-            // dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
             view.setText(heartRate);
-            // view.draw(dc);
-            // view.setVisible(true);
-            // View.onUpdate(dc);
 
         }
         
-
-        // Call the parent onUpdate function to redraw the layout
-        // View.onUpdate(dc);
-
     }
 
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.Item1Layout(dc));
     }
 
+    function getLatestHeartRate()  {
+
+        var heartRate = "--";
+
+        if (Act has :getHeartRateHistory) {
+            heartRate = Activity.getActivityInfo().currentHeartRate;
+
+            if(heartRate==null) {
+                var HRH=Act.getHeartRateHistory(1, true);
+                var HRS=HRH.next();
+
+                if(HRS!=null && HRS.heartRate!= Act.INVALID_HR_SAMPLE){
+                    heartRate = HRS.heartRate;
+                }
+            }
+
+            if(heartRate!=null) {
+                heartRate = heartRate.toString();
+            }
+            else{
+                heartRate = "--";
+            }
+        }
+
+        return heartRate;
+
+    }
 
 
 }
