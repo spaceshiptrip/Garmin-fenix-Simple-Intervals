@@ -140,7 +140,7 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
 C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_47_8_65_8_if_end:
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldView.mc" 67 8 ]
         %tmp.53 = getv ? :System;
-        %tmp.54 = getv function %tmp.53 :print;
+        %tmp.54 = getv function %tmp.53 :println;
         %tmp.55 = "HR: ";
         %tmp.57 = lgetv %heartRate.1;
         %tmp.58 = add %tmp.55 %tmp.57;
@@ -227,7 +227,7 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
         %tmp.107 = lgetv %view.9;
         %tmp.108 = as %tmp.107 { (!Null) };
         %tmp.109 = getv function %tmp.108 :setText;
-        %tmp.111 = lgetv %text.6;
+        %tmp.111 = lgetv %heartRate.1;
         invoke %tmp.108 %tmp.109(%tmp.111);
 C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_122_15_131_8_stop:
 C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldView_mc_120_8_131_8_if_end:

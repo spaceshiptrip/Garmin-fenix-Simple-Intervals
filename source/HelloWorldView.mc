@@ -64,7 +64,7 @@ class HelloWorldView extends WatchUi.View {
             }
         }
 
-        System.print("HR: " + heartRate);
+        System.println("HR: " + heartRate);
         // View.findDrawableById("currHR").setText(heartRate);
         // View.findDrawableById("currHR").setText(heartRate.toString());
         // var identifier = "HRLabel";
@@ -123,7 +123,7 @@ class HelloWorldView extends WatchUi.View {
             // view.setText(timeString);
             System.println("drawing dc");
             // dc.drawText(x, y, Graphics.FONT_LARGE, text, Graphics.TEXT_JUSTIFY_CENTER);
-            view.setText(text);
+            view.setText(heartRate);
             // view.draw(dc);
             // view.setVisible(true);
             // View.onUpdate(dc);
@@ -139,5 +139,7 @@ class HelloWorldView extends WatchUi.View {
     function onLayout(dc as Dc) as Void {
         setLayout(Rez.Layouts.Item1Layout(dc));
     }
+
+
 
 }

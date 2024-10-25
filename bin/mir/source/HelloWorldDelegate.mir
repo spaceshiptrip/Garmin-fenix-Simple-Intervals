@@ -22,7 +22,7 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
     }
     [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldDelegate.mc"; @line = 10; ]
     function onMenu() as Boolean {
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_10_33_13_4_start:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_10_33_19_4_start:
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldDelegate.mc" 11 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :pushView;
@@ -33,9 +33,28 @@ C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_inter
         %tmp.9 = getv %tmp.8 :SLIDE_UP;
         invoke %tmp.1 %tmp.2(%tmp.3, %tmp.7, %tmp.9);
 [ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldDelegate.mc" 12 8 ]
+        while @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_8_17_8_while_test @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_8_17_8_while_end;
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_8_17_8_while_test:
         %tmp.10 = true;
-        ret %tmp.10;
-C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_10_33_13_4_stop:
+        bf %tmp.10 @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_8_17_8_while_end;
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_8_17_8_while_begin:
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_21_17_8_start:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldDelegate.mc" 13 12 ]
+        %tmp.12 = getv ? :System;
+        %tmp.13 = getv function %tmp.12 :print;
+        %tmp.14 = "requestUpdate";
+        invoke %tmp.12 %tmp.13(%tmp.14);
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldDelegate.mc" 16 12 ]
+        %tmp.15 = getm $.Toybox.WatchUi;
+        %tmp.16 = getv function %tmp.15 :requestUpdate;
+        invoke %tmp.15 %tmp.16();
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_21_17_8_stop:
+        goto @C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_8_17_8_while_test;
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_12_8_17_8_while_end:
+[ "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldDelegate.mc" 18 8 ]
+        %tmp.17 = true;
+        ret %tmp.17;
+C_Users_rjayt_Workspaces_garmin_fenix_simple_intervals_garmin_fenix_simple_intervals_source_HelloWorldDelegate_mc_10_33_19_4_stop:
     }
 }
 [ @file = "C:\Users\rjayt\Workspaces\garmin-fenix-simple-intervals\garmin-fenix-simple-intervals\source\HelloWorldDelegate.mc"; @line = 1; ]

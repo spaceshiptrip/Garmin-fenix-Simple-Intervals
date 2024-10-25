@@ -61,28 +61,31 @@
         <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="24" lineNum="10" parent="globals/HelloWorldDelegate" pc="268436474" symbol="onMenu"/>
         <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="24" lineNum="11" parent="globals/HelloWorldDelegate" pc="268436476" symbol="onMenu"/>
         <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="24" lineNum="12" parent="globals/HelloWorldDelegate" pc="268436524" symbol="onMenu"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="25" lineNum="6" parent="globals/HelloWorldDelegate" pc="268436527" symbol="initialize"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="25" lineNum="7" parent="globals/HelloWorldDelegate" pc="268436529" symbol="initialize"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="26" lineNum="12" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436548" symbol="onStart"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="27" lineNum="20" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436551" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="27" lineNum="21" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436553" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="28" lineNum="7" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436628" symbol="initialize"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="28" lineNum="8" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436630" symbol="initialize"/>
-        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="29" lineNum="16" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436649" symbol="onStop"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="23" parent="globals/Rez/Layouts" pc="268436652" symbol="Item1Layout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="24" parent="globals/Rez/Layouts" pc="268436664" symbol="Item1Layout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="26" parent="globals/Rez/Layouts" pc="268436795" symbol="Item1Layout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="28" parent="globals/Rez/Layouts" pc="268436939" symbol="Item1Layout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="14" parent="globals/Rez/Layouts" pc="268436966" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="15" parent="globals/Rez/Layouts" pc="268436978" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="17" parent="globals/Rez/Layouts" pc="268437109" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="18" parent="globals/Rez/Layouts" pc="268437214" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="20" parent="globals/Rez/Layouts" pc="268437254" symbol="MainLayout"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="32" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268437281" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268437300" symbol="initialize"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437302" symbol="initialize"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268437320" symbol="initialize"/>
-        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268437376" symbol="initialize"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="24" lineNum="13" parent="globals/HelloWorldDelegate" pc="268436529" symbol="onMenu"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="24" lineNum="16" parent="globals/HelloWorldDelegate" pc="268436552" symbol="onMenu"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="24" lineNum="18" parent="globals/HelloWorldDelegate" pc="268436571" symbol="onMenu"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="25" lineNum="6" parent="globals/HelloWorldDelegate" pc="268436574" symbol="initialize"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\HelloWorldDelegate.mc" id="25" lineNum="7" parent="globals/HelloWorldDelegate" pc="268436576" symbol="initialize"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="26" lineNum="12" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436595" symbol="onStart"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="27" lineNum="20" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436598" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="27" lineNum="21" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436600" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="28" lineNum="7" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436675" symbol="initialize"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="28" lineNum="8" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436677" symbol="initialize"/>
+        <entry filename="C:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\source\\garmin-fenix-simple-intervalsApp.mc" id="29" lineNum="16" parent="globals/garmin_fenix_simple_intervalsApp" pc="268436696" symbol="onStop"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="23" parent="globals/Rez/Layouts" pc="268436699" symbol="Item1Layout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="24" parent="globals/Rez/Layouts" pc="268436711" symbol="Item1Layout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="26" parent="globals/Rez/Layouts" pc="268436842" symbol="Item1Layout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="30" lineNum="28" parent="globals/Rez/Layouts" pc="268436986" symbol="Item1Layout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="14" parent="globals/Rez/Layouts" pc="268437013" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="15" parent="globals/Rez/Layouts" pc="268437025" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="17" parent="globals/Rez/Layouts" pc="268437156" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="18" parent="globals/Rez/Layouts" pc="268437261" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="31" lineNum="20" parent="globals/Rez/Layouts" pc="268437301" symbol="MainLayout"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="32" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268437328" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268437347" symbol="initialize"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437349" symbol="initialize"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="36" parent="globals/Rez/Menus/MainMenu" pc="268437367" symbol="initialize"/>
+        <entry filename="c:\\Users\\rjayt\\Workspaces\\garmin-fenix-simple-intervals\\garmin-fenix-simple-intervals\\bin\\gen\\006-B3111-00\\source\\Rez.mcgen" id="33" lineNum="37" parent="globals/Rez/Menus/MainMenu" pc="268437423" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -161,12 +164,12 @@
         <entry endPc="268436215" name="y" stackId="9" startPc="268435781"/>
         <entry endPc="268436215" name="view" stackId="10" startPc="268435781"/>
         <entry arg="true" endPc="268436341" name="item" stackId="1" startPc="268436217"/>
-        <entry arg="true" endPc="268436965" name="dc" stackId="1" startPc="268436652"/>
-        <entry endPc="268436965" name="rez_cmp_local_text_2016286321" stackId="2" startPc="268436664"/>
-        <entry endPc="268436965" name="rez_cmp_local_text_HRLabel" stackId="3" startPc="268436664"/>
-        <entry arg="true" endPc="268437280" name="dc" stackId="1" startPc="268436966"/>
-        <entry endPc="268437280" name="rez_cmp_local_text_2103265187" stackId="2" startPc="268436978"/>
-        <entry endPc="268437280" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436978"/>
+        <entry arg="true" endPc="268437012" name="dc" stackId="1" startPc="268436699"/>
+        <entry endPc="268437012" name="rez_cmp_local_text_1155504068" stackId="2" startPc="268436711"/>
+        <entry endPc="268437012" name="rez_cmp_local_text_HRLabel" stackId="3" startPc="268436711"/>
+        <entry arg="true" endPc="268437327" name="dc" stackId="1" startPc="268437013"/>
+        <entry endPc="268437327" name="rez_cmp_local_text_4951951606" stackId="2" startPc="268437025"/>
+        <entry endPc="268437327" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437025"/>
     </localVars>
     <deviceInfo partNumber="006-B3111-00"/>
     <annotations>
@@ -285,38 +288,38 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436526" name="onMenu" parent="HelloWorldDelegate" startPc="268436474">
+        <functionEntry accessMode="public" endPc="268436573" name="onMenu" parent="HelloWorldDelegate" startPc="268436474">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436547" name="initialize" parent="HelloWorldDelegate" startPc="268436527">
+        <functionEntry accessMode="public" endPc="268436594" name="initialize" parent="HelloWorldDelegate" startPc="268436574">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436550" name="onStart" parent="garmin_fenix_simple_intervalsApp" startPc="268436548">
+        <functionEntry accessMode="public" endPc="268436597" name="onStart" parent="garmin_fenix_simple_intervalsApp" startPc="268436595">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436627" name="getInitialView" parent="garmin_fenix_simple_intervalsApp" startPc="268436551">
+        <functionEntry accessMode="public" endPc="268436674" name="getInitialView" parent="garmin_fenix_simple_intervalsApp" startPc="268436598">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436648" name="initialize" parent="garmin_fenix_simple_intervalsApp" startPc="268436628">
+        <functionEntry accessMode="public" endPc="268436695" name="initialize" parent="garmin_fenix_simple_intervalsApp" startPc="268436675">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436651" name="onStop" parent="garmin_fenix_simple_intervalsApp" startPc="268436649">
+        <functionEntry accessMode="public" endPc="268436698" name="onStop" parent="garmin_fenix_simple_intervalsApp" startPc="268436696">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436965" name="Item1Layout" parent="Layouts" startPc="268436652">
+        <functionEntry accessMode="public" endPc="268437012" name="Item1Layout" parent="Layouts" startPc="268436699">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437280" name="MainLayout" parent="Layouts" startPc="268436966">
+        <functionEntry accessMode="public" endPc="268437327" name="MainLayout" parent="Layouts" startPc="268437013">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437299" name="&lt;init&gt;" parent="MainMenu" startPc="268437281">
+        <functionEntry accessMode="public" endPc="268437346" name="&lt;init&gt;" parent="MainMenu" startPc="268437328">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437432" name="initialize" parent="MainMenu" startPc="268437300">
+        <functionEntry accessMode="public" endPc="268437479" name="initialize" parent="MainMenu" startPc="268437347">
             <documentation/>
         </functionEntry>
     </functions>
